@@ -1,0 +1,35 @@
+{
+    "header": {
+        "home": "Accueil",
+        "projects": "Projets",
+        "about": "À propos",
+        "contact": "Contact",
+        "lang": "EN"
+    },
+    "home": {
+        "title": "Bonjour — je suis Matteo Tani",
+        "subtitle": "Développeur Fullstack • Java",
+        "cta": "Voir mes projets"
+    },
+    "projects": {
+        "title": "Projets",
+        "items": [
+            {
+                "title": "Projet 1",
+                "description": "Un premier projet."
+            },
+            {
+                "title": "Projet 2",
+                "description": "Un second projet."
+            }
+        ]
+    },
+    "about": {
+        "title": "À propos",
+        "text": "Description de moi."
+    },
+    "contact": {
+        "title": "Contact",
+        "mail": "mat.tani@orange.fr"
+    }
+}
