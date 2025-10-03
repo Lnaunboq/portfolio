@@ -21,6 +21,14 @@
             {
                 "title": "Project 2",
                 "description": "A second project."
+            },
+            {
+                "title": "Project 3",
+                "description": "Un third projet."
+            },
+            {
+                "title": "Project 4",
+                "description": "Un fourth projet."
             }
         ]
     },
@@ -30,6 +38,8 @@
     },
     "contact": {
         "title": "Contact",
-        "mail": "mat.tani@orange.fr"
+        "mail": "mat.tani@orange.fr",
+        "button": "Send",
+        "messageSent": "Message sent !"
     }
 }

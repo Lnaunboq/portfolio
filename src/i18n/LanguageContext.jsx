@@ -1,20 +1,23 @@
+// src/i18n/LanguageContext.jsx
 import React, { createContext, useState, useContext } from "react";
 import fr from "./fr.json";
 import en from "./en.json";
 
-const languages = { fr, en };
+const translations = { fr, en };
 
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
     const [lang, setLang] = useState("fr");
 
-    const toggleLang = () => {
-        setLang((prev) => (prev === "fr" ? "en" : "fr"));
+    const switchLang = (newLang) => {
+        setLang(newLang);
     };
 
+    const t = translations[lang];
+
     return (
-        <LanguageContext.Provider value={{ lang, setLang, toggleLang, t: languages[lang] }}>
+        <LanguageContext.Provider value={{ lang, switchLang, t }}>
             {children}
         </LanguageContext.Provider>
     );

@@ -1,9 +1,8 @@
 :root {
-  --max-width: 1100px;
-  --accent: #2563eb;
-  --bg: #f7f7fb;
-  --text: #111827;
-  --muted: #6b7280;
+  --bg1: #fff;
+  --bg2: #f0f0f0;
+  --text: #000;
+  --accent: #ff5722;
 }
 
 * {
@@ -11,11 +10,11 @@
 }
 
 body {
-  font-family: Inter, system-ui, Arial, sans-serif;
   margin: 0;
-  background: var(--bg);
+  font-family: Arial, sans-serif;
+  background: var(--bg1);
   color: var(--text);
-  line-height: 1.5;
+  transition: background 0.3s, color 0.3s;
 }
 
 .container {
@@ -24,23 +23,37 @@ body {
   padding: 2rem;
 }
 
-.site-header {
-  background: white;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
-
-.header-inner {
+.header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 1rem;
+  background: var(--bg2);
+  color: var(--text);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  margin: 0;
-  font-size: 1.1rem;
+.lang-switch {
+  display: flex;
+  background: #222;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.lang-switch button {
+  flex: 1;
+  padding: 6px 12px;
+  border: none;
+  background: none;
+  color: #aaa;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-switch button.active {
+  background: var(--accent);
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
 
 nav a {
@@ -66,21 +79,36 @@ nav a {
 
 .projects .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
   gap: 1rem;
 }
 
 .card {
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  background: linear-gradient(135deg, var(--bg1), var(--bg2));
+  color: var(--text);
+  padding: 20px;
+  margin: 1rem 0;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
 
 .tech {
   font-size: 0.85rem;
   color: var(--muted);
   margin-top: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg2);
+  margin-top: 2rem;
 }
 
 .site-footer {

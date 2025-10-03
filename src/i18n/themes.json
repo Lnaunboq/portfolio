@@ -1,0 +1,14 @@
+{
+  "light": {
+    "bg1": "#ffffff",
+    "bg2": "#f0f0f0",
+    "text": "#222222",
+    "accent": "#27d3f5"
+  },
+  "dark": {
+    "bg1": "#1c1c1c",
+    "bg2": "#2a2a2a",
+    "text": "#f5f5f5",
+    "accent": "#4cafef"
+  }
+}

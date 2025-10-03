@@ -14,14 +14,14 @@ export default function Contact() {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          alert("Message envoyé ! (simulé)");
+          alert(t.contact.messageSent);
         }}
       >
         <label>
           Message
           <textarea name="message" required />
         </label>
-        <button type="submit">Envoyer</button>
+        <button type="submit">{t.contact.button}</button>
       </form>
     </div>
   );

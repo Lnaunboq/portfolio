@@ -1,21 +1,25 @@
+// src/components/Header.jsx
 import React from "react";
 import { useLang } from "../i18n/LanguageContext";
 
 export default function Header() {
-  const { t, toggleLang } = useLang();
+  const { lang, switchLang } = useLang();
 
   return (
-    <header className="site-header">
-      <div className="container header-inner">
-        <h1 className="logo">Matteo Tani</h1>
-        <nav>
-          <a href="#home">{t.header.home}</a>
-          <a href="#projects">{t.header.projects}</a>
-          <a href="#about">{t.header.about}</a>
-          <a href="#contact">{t.header.contact}</a>
-        </nav>
-        <button onClick={toggleLang} className="lang-btn">
-          {t.header.lang}
+    <header className="header">
+      <h1>Portfolio</h1>
+      <div className="lang-switch">
+        <button
+          className={lang === "fr" ? "active" : ""}
+          onClick={() => switchLang("fr")}
+        >
+          FR
+        </button>
+        <button
+          className={lang === "en" ? "active" : ""}
+          onClick={() => switchLang("en")}
+        >
+          EN
         </button>
       </div>
     </header>
