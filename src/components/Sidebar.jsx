@@ -1,12 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useLang } from "../i18n/LanguageContext";
-import { useTheme } from "../i18n/ThemeContext";
 import ThemeCombo from "./ThemeCombo";
 
 export default function Sidebar() {
     const { lang, switchLang, t } = useLang();
-    const { theme, switchTheme, themes } = useTheme();
 
     return (
         <aside className="sidebar">
@@ -15,7 +13,7 @@ export default function Sidebar() {
             <nav>
                 <NavLink to="/" end>{t.menu.home}</NavLink>
                 <NavLink to="/projects">{t.menu.projects}</NavLink>
-                <NavLink to="/about">{t.menu.about}</NavLink>
+                <NavLink to="/games">{t.menu.games}</NavLink>
                 <NavLink to="/contact">{t.menu.contact}</NavLink>
             </nav>
 

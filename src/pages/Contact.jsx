@@ -6,7 +6,9 @@ export default function Contact() {
 
   return (
     <div className="container contact">
-      <h3>{t.contact.title}</h3>
+      <h3>{t.contact.titleAbout}</h3>
+      <p>{t.contact.description}</p>
+      <h3>{t.contact.titleContact}</h3>
       <p>
         Mail : <a href={`mailto:${t.contact.mail}`}>{t.contact.mail}</a>
       </p>

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import About from "./pages/About";
+import Games from "./pages/Games";
 import Contact from "./pages/Contact";
 
 export default function App() {
@@ -28,10 +28,10 @@ export default function App() {
           }
         />
         <Route
-          path="/about"
+          path="/games"
           element={
             <Layout>
-              <About />
+              <Games />
             </Layout>
           }
         />

@@ -1,11 +1,4 @@
 {
-    "header": {
-        "home": "Home",
-        "projects": "Projects",
-        "about": "About",
-        "contact": "Contact",
-        "lang": "FR"
-    },
     "home": {
         "title": "Hello — I’m Matteo Tani",
         "subtitle": "Fullstack • Java Developer",
@@ -14,7 +7,7 @@
     "menu": {
         "home": "Home",
         "projects": "Projects",
-        "about": "About",
+        "games": "Games",
         "contact": "Contact"
     },
     "projects": {
@@ -38,12 +31,19 @@
             }
         ]
     },
-    "about": {
-        "title": "About",
-        "text": "My description."
+    "games": {
+        "title": "Games",
+        "items": [
+            {
+                "title": "Project 1",
+                "description": "A first project."
+            }
+        ]
     },
     "contact": {
-        "title": "Contact",
+        "titleAbout": "About",
+        "description": "My description.",
+        "titleContact": "Contact",
         "mail": "mat.tani@orange.fr",
         "button": "Send",
         "messageSent": "Message sent !"
