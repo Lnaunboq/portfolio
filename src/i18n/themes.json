@@ -1,14 +1,24 @@
 {
   "light": {
-    "bg1": "#ffffff",
-    "bg2": "#f0f0f0",
-    "text": "#222222",
-    "accent": "#27d3f5"
+    "name": "light",
+    "colors": {
+      "--color-primary": "#ffffff",
+      "--color-secondary": "#f5f5f5",
+      "--color-tertiary": "#eaeaea",
+      "--color-accent": "#2B6BBA",
+      "--color-text": "#000000",
+      "--color-muted": "#666666"
+    }
   },
   "dark": {
-    "bg1": "#1c1c1c",
-    "bg2": "#2a2a2a",
-    "text": "#f5f5f5",
-    "accent": "#4cafef"
+    "name": "dark",
+    "colors": {
+      "--color-primary": "#121212",
+      "--color-secondary": "#1e1e1e",
+      "--color-tertiary": "#2a2a2a",
+      "--color-accent": "#7EA3D9",
+      "--color-text": "#f5f5f5",
+      "--color-muted": "#bbbbbb"
+    }
   }
 }

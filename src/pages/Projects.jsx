@@ -1,6 +1,6 @@
 import React from "react";
 import { useLang } from "../i18n/LanguageContext";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
   const { t } = useLang();

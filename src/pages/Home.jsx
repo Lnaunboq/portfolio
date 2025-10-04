@@ -8,7 +8,6 @@ export default function Home() {
     <div className="container home">
       <h2>{t.home.title}</h2>
       <p>{t.home.subtitle}</p>
-      <a className="btn" href="#projects">{t.home.cta}</a>
     </div>
   );
 }

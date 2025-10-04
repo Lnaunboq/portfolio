@@ -1,21 +1,16 @@
 import React from "react";
 import { useTheme } from "../i18n/ThemeContext";
+import { useLang } from "../i18n/LanguageContext";
 
 export default function Footer() {
   const { theme, setTheme } = useTheme();
+  const { lang, switchLang, t } = useLang();
 
   return (
     <footer className="footer">
       <div className="container">
-        <p>© {new Date().getFullYear()} Matteo Tani — <a href="/resume.pdf" target="_blank">Télécharger CV</a></p>
+        <p>© {new Date().getFullYear()} Matteo Tani — <a href="/resume.pdf" target="_blank">{t.footer.resume}</a></p>
       </div>
-      <label>
-        Thème :
-        <select value={theme} onChange={(e) => setTheme(e.target.value)}>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-      </label>
     </footer>
   );
 }

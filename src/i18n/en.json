@@ -11,6 +11,12 @@
         "subtitle": "Fullstack • Java Developer",
         "cta": "See my projects"
     },
+    "menu": {
+        "home": "Home",
+        "projects": "Projects",
+        "about": "About",
+        "contact": "Contact"
+    },
     "projects": {
         "title": "Projects",
         "items": [
@@ -24,11 +30,11 @@
             },
             {
                 "title": "Project 3",
-                "description": "Un third projet."
+                "description": "A third project."
             },
             {
                 "title": "Project 4",
-                "description": "Un fourth projet."
+                "description": "A fourth project."
             }
         ]
     },
@@ -41,5 +47,8 @@
         "mail": "mat.tani@orange.fr",
         "button": "Send",
         "messageSent": "Message sent !"
+    },
+    "footer": {
+        "resume": "Download resume"
     }
 }
