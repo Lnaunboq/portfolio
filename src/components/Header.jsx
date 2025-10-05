@@ -1,9 +1,8 @@
-// src/components/Header.jsx
 import React from "react";
 import { useLang } from "../i18n/LanguageContext";
 
 export default function Header() {
-  const { lang, switchLang } = useLang();
+  useLang();
 
   return (
     <header className="header">

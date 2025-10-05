@@ -1,4 +1,3 @@
-// src/i18n/LanguageContext.jsx
 import React, { createContext, useState, useContext } from "react";
 import fr from "./fr.json";
 import en from "./en.json";
@@ -23,6 +22,7 @@ export function LanguageProvider({ children }) {
     );
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useLang() {
     return useContext(LanguageContext);
 }

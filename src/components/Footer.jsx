@@ -3,8 +3,8 @@ import { useTheme } from "../i18n/ThemeContext";
 import { useLang } from "../i18n/LanguageContext";
 
 export default function Footer() {
-  const { theme, setTheme } = useTheme();
-  const { lang, switchLang, t } = useLang();
+  useTheme();
+  const { t } = useLang();
 
   return (
     <footer className="footer">
