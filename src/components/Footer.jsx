@@ -9,7 +9,12 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>© {new Date().getFullYear()} Matteo Tani — <a href="/resume.pdf" target="_blank">{t.footer.resume}</a></p>
+        <p>
+          © {new Date().getFullYear()} Matteo Tani —{" "}
+          <a href="/resume.pdf" target="_blank">
+            {t.footer.resume}
+          </a>
+        </p>
       </div>
     </footer>
   );

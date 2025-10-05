@@ -1,54 +1,54 @@
 {
-    "home": {
-        "title": "Bonjour — je suis Matteo Tani",
-        "subtitle": "Développeur Fullstack • Java",
-        "cta": "Voir mes projets"
-    },
-    "menu": {
-        "home": "Accueil",
-        "projects": "Projets",
-        "games": "Jeux",
-        "contact": "Contact"
-    },
-    "projects": {
-        "title": "Projets",
-        "items": [
-            {
-                "title": "Projet 1",
-                "description": "Un premier projet."
-            },
-            {
-                "title": "Projet 2",
-                "description": "Un second projet."
-            },
-            {
-                "title": "Projet 3",
-                "description": "Un troisième projet."
-            },
-            {
-                "title": "Projet 4",
-                "description": "Un quatrième projet."
-            }
-        ]
-    },
-    "games": {
-        "title": "Jeux",
-        "items": [
-            {
-                "title": "Projet 1",
-                "description": "Un premier projet."
-            }
-        ]
-    },
-    "contact": {
-        "titleAbout": "À propos",
-        "description": "Description de moi.",
-        "titleContact": "Contact",
-        "mail": "mat.tani@orange.fr",
-        "button": "Envoyer",
-        "messageSent": "Message envoyé !"
-    },
-    "footer": {
-        "resume": "Télécharger CV"
-    }
+  "home": {
+    "title": "Bonjour — je suis Matteo Tani",
+    "subtitle": "Développeur Fullstack • Java",
+    "cta": "Voir mes projets"
+  },
+  "menu": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "games": "Jeux",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projets",
+    "items": [
+      {
+        "title": "Projet 1",
+        "description": "Un premier projet."
+      },
+      {
+        "title": "Projet 2",
+        "description": "Un second projet."
+      },
+      {
+        "title": "Projet 3",
+        "description": "Un troisième projet."
+      },
+      {
+        "title": "Projet 4",
+        "description": "Un quatrième projet."
+      }
+    ]
+  },
+  "games": {
+    "title": "Jeux",
+    "items": [
+      {
+        "title": "Projet 1",
+        "description": "Un premier projet."
+      }
+    ]
+  },
+  "contact": {
+    "titleAbout": "À propos",
+    "description": "Description de moi.",
+    "titleContact": "Contact",
+    "mail": "mat.tani@orange.fr",
+    "button": "Envoyer",
+    "messageSent": "Message envoyé !"
+  },
+  "footer": {
+    "resume": "Télécharger CV"
+  }
 }

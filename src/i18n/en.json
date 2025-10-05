@@ -1,54 +1,54 @@
 {
-    "home": {
-        "title": "Hello — I’m Matteo Tani",
-        "subtitle": "Fullstack • Java Developer",
-        "cta": "See my projects"
-    },
-    "menu": {
-        "home": "Home",
-        "projects": "Projects",
-        "games": "Games",
-        "contact": "Contact"
-    },
-    "projects": {
-        "title": "Projects",
-        "items": [
-            {
-                "title": "Project 1",
-                "description": "A first project."
-            },
-            {
-                "title": "Project 2",
-                "description": "A second project."
-            },
-            {
-                "title": "Project 3",
-                "description": "A third project."
-            },
-            {
-                "title": "Project 4",
-                "description": "A fourth project."
-            }
-        ]
-    },
-    "games": {
-        "title": "Games",
-        "items": [
-            {
-                "title": "Project 1",
-                "description": "A first project."
-            }
-        ]
-    },
-    "contact": {
-        "titleAbout": "About",
-        "description": "My description.",
-        "titleContact": "Contact",
-        "mail": "mat.tani@orange.fr",
-        "button": "Send",
-        "messageSent": "Message sent !"
-    },
-    "footer": {
-        "resume": "Download resume"
-    }
+  "home": {
+    "title": "Hello — I’m Matteo Tani",
+    "subtitle": "Fullstack • Java Developer",
+    "cta": "See my projects"
+  },
+  "menu": {
+    "home": "Home",
+    "projects": "Projects",
+    "games": "Games",
+    "contact": "Contact"
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Project 1",
+        "description": "A first project."
+      },
+      {
+        "title": "Project 2",
+        "description": "A second project."
+      },
+      {
+        "title": "Project 3",
+        "description": "A third project."
+      },
+      {
+        "title": "Project 4",
+        "description": "A fourth project."
+      }
+    ]
+  },
+  "games": {
+    "title": "Games",
+    "items": [
+      {
+        "title": "Project 1",
+        "description": "A first project."
+      }
+    ]
+  },
+  "contact": {
+    "titleAbout": "About",
+    "description": "My description.",
+    "titleContact": "Contact",
+    "mail": "mat.tani@orange.fr",
+    "button": "Send",
+    "messageSent": "Message sent !"
+  },
+  "footer": {
+    "resume": "Download resume"
+  }
 }

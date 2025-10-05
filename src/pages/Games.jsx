@@ -7,16 +7,16 @@ export default function About() {
 
   return (
     <div className="container games">
-          <h3>{t.games.title}</h3>
-          <div className="grid">
-            {t.games.items.map((p, index) => (
-              <ProjectCard
-                key={index}
-                title={p.title}
-                description={p.description}
-              />
-            ))}
-          </div>
-        </div>
+      <h3>{t.games.title}</h3>
+      <div className="grid">
+        {t.games.items.map((p, index) => (
+          <ProjectCard
+            key={index}
+            title={p.title}
+            description={p.description}
+          />
+        ))}
+      </div>
+    </div>
   );
 }
