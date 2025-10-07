@@ -2,7 +2,7 @@
   "home": {
     "title": "Hello — I’m Matteo Tani",
     "subtitle": "Fullstack • Java Developer",
-    "cta": "See my projects"
+    "text": "See my projects"
   },
   "menu": {
     "home": "Home",
@@ -14,20 +14,25 @@
     "title": "Projects",
     "items": [
       {
-        "title": "Project 1",
-        "description": "A first project."
+        "title": "Portfolio",
+        "technology": "Javascript, React",
+        "description": "That website. It's a project developed in Javascript/React, with the goal is to present my differents projects.",
+        "repositoryLink": "https://github.com/Lnaunboq/portfolio",
+        "repositoryText": "See repository"
       },
       {
-        "title": "Project 2",
-        "description": "A second project."
+        "title": "Sataniawa Bot",
+        "technology": "Python",
+        "description": "A Discord bot, developed in Python. It doesn't really have any goal, if only an experimental creation for explore the different possibilities with a discord bot.",
+        "repositoryLink": "https://github.com/Lnaunboq/Sataniawabot",
+        "repositoryText": "See repository"
       },
       {
-        "title": "Project 3",
-        "description": "A third project."
-      },
-      {
-        "title": "Project 4",
-        "description": "A fourth project."
+        "title": "Multi-platform Diary",
+        "technology": "Java, Springboot, Angular, Maven",
+        "description": "The objectiv of this project is to develop a diary, shared with multiple users, and usable at the same time on multiple platforms (pc/mobile). It is developed with a Java Springboot Backend, and an Angular Frontend.",
+        "repositoryLink": "https://github.com/Lnaunboq/agenda-backend - https://github.com/Lnaunboq/agenda-frontend-angular",
+        "repositoryText": "Springboot repository - Angular repository"
       }
     ]
   },
@@ -35,8 +40,11 @@
     "title": "Games",
     "items": [
       {
-        "title": "Project 1",
-        "description": "A first project."
+        "title": "Platformer 2D",
+        "technology": "Unity, C#",
+        "description": "A 2D platformer project made with Unity. The goal was to master the basics of the game engine.",
+        "repositoryLink": "",
+        "repositoryText": ""
       }
     ]
   },

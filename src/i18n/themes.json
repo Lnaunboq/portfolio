@@ -6,6 +6,7 @@
       "--color-secondary": "#f5f5f5",
       "--color-tertiary": "#eaeaea",
       "--color-accent": "#2B6BBA",
+      "--color-accent-hover": "#89B5FF",
       "--color-text": "#000000",
       "--color-muted": "#666666"
     }
@@ -17,6 +18,7 @@
       "--color-secondary": "#1e1e1e",
       "--color-tertiary": "#2a2a2a",
       "--color-accent": "#7EA3D9",
+      "--color-accent-hover": "#89B5FF",
       "--color-text": "#f5f5f5",
       "--color-muted": "#bbbbbb"
     }

@@ -8,6 +8,7 @@ export default function Home() {
     <div className="container home">
       <h2>{t.home.title}</h2>
       <p>{t.home.subtitle}</p>
+      <p>{t.home.text}</p>
     </div>
   );
 }

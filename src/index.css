@@ -143,9 +143,62 @@ body {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
-.tech {
-  font-size: 0.85rem;
+/* ============================= */
+/* PROJECTS CARDS                */
+/* ============================= */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: var(--color-text);
+}
+
+.project-tech {
+  font-size: 0.9rem;
   color: var(--color-muted);
+  margin-bottom: 0.8rem;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--color-accent);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.github-link:hover {
+  background: var(--color-accent-hover, #5a8edc);
+  transform: translateY(-2px);
+}
+
+.github-icon {
+  font-size: 1.1rem;
 }
 
 /* ============================= */

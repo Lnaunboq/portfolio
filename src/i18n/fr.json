@@ -2,7 +2,7 @@
   "home": {
     "title": "Bonjour — je suis Matteo Tani",
     "subtitle": "Développeur Fullstack • Java",
-    "cta": "Voir mes projets"
+    "text": "Voir mes projets"
   },
   "menu": {
     "home": "Accueil",
@@ -14,20 +14,25 @@
     "title": "Projets",
     "items": [
       {
-        "title": "Projet 1",
-        "description": "Un premier projet."
+        "title": "Portfolio",
+        "technology": "Javascript, React",
+        "description": "Ce même site. Il s'agit d'un projet développé en Javascritp/React, ayant pour objectif de développer mes différents projets réalisés.",
+        "repositoryLink": "https://github.com/Lnaunboq/portfolio",
+        "repositoryText": "Voir le repo"
       },
       {
-        "title": "Projet 2",
-        "description": "Un second projet."
+        "title": "Sataniawa Bot",
+        "technology": "Python",
+        "description": "Un bot Discord, développé en Python. Il n'a pas réellement d'objectif, si ce n'est expérimental pour tester les différentes possibilitées de ce qu'il est possible de faire en intégrant un bot sur Discord.",
+        "repositoryLink": "https://github.com/Lnaunboq/Sataniawabot",
+        "repositoryText": "Voir le repo"
       },
       {
-        "title": "Projet 3",
-        "description": "Un troisième projet."
-      },
-      {
-        "title": "Projet 4",
-        "description": "Un quatrième projet."
+        "title": "Agenda multi-platformes",
+        "technology": "Java, Springboot, Angular, Maven",
+        "description": "Le but de ce projet est de développer un agenda, partagé entre plusieurs utilisateurs, et utilisables simultanément sur plusieurs plateformes (pc/mobile). Il est développé avec un Backend en Java Springboot, et un Frontend en Angular.",
+        "repositoryLink": "https://github.com/Lnaunboq/agenda-backend - https://github.com/Lnaunboq/agenda-frontend-angular",
+        "repositoryText": "Repo Springboot - Repo Angular"
       }
     ]
   },
@@ -35,8 +40,11 @@
     "title": "Jeux",
     "items": [
       {
-        "title": "Projet 1",
-        "description": "Un premier projet."
+        "title": "Platformer 2D",
+        "technology": "Unity, C#",
+        "description": "Un projet de jeux de plateforme en 2D, développé sous Unity. Il a pour objectif d'apprendre les bases du moteur.",
+        "repositoryLink": "",
+        "repositoryText": ""
       }
     ]
   },

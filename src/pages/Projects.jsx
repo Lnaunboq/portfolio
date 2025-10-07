@@ -13,7 +13,10 @@ export default function Projects() {
           <ProjectCard
             key={index}
             title={p.title}
+            technology={p.technology}
             description={p.description}
+            repositoryLink={p.repositoryLink}
+            repositoryText={p.repositoryText}
           />
         ))}
       </div>
